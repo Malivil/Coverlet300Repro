@@ -9,7 +9,7 @@ The property on the second line of the constructor shows as uncovered even thoug
 ![Multi-Line Constructor](https://github.com/Malivil/Coverlet300Repro/blob/master/ExampleImages/MultiLineConstructor.png)
 
 ### Multi-Line Assignment
-The property is being assigned over multiple lines in the constructor which should have completel coverage\
+The property is being assigned over multiple lines in the constructor which should have complete coverage\
 ![Multi-Line Constructor](https://github.com/Malivil/Coverlet300Repro/blob/master/ExampleImages/MultiLineAssignment.png)
 
 ### Switch Pattern
