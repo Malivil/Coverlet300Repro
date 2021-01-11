@@ -8,6 +8,10 @@ Execute the `GenerateCoverageReport.bat` file in the `Coverlet300ReproTests` fol
 The property on the second line of the constructor shows as uncovered even though the body of the constructor is\
 ![Multi-Line Constructor](https://github.com/Malivil/Coverlet300Repro/blob/master/ExampleImages/MultiLineConstructor.png)
 
+### Multi-Line Assignment
+The property is being assigned over multiple lines in the constructor which should have completel coverage\
+![Multi-Line Constructor](https://github.com/Malivil/Coverlet300Repro/blob/master/ExampleImages/MultiLineAssignment.png)
+
 ### Switch Pattern
 The declaration and opening bracket of the Switch Pattern is uncovered even though both possible cases are covered\
 ![Switch Pattern](https://github.com/Malivil/Coverlet300Repro/blob/master/ExampleImages/SwitchPattern.png)

@@ -38,10 +38,10 @@ namespace Coverlet300ReproTests
         {
             // Arrange
             var target = new SwitchPattern(Number.One);
-            
+
             // Act
             var result = target.Value;
-            
+
             // Assert
             Assert.Equal(1, result);
         }
@@ -57,6 +57,19 @@ namespace Coverlet300ReproTests
 
             // Assert
             Assert.Equal(2, result);
+        }
+
+        [Fact]
+        public void MultiLineAssignmentTest_Unknown()
+        {
+            // Arrange
+            var target = new MultiLineAssignment();
+
+            // Act
+            var result = target.Value;
+
+            // Assert
+            Assert.Equal(2 / 3.0f, result);
         }
     }
 }

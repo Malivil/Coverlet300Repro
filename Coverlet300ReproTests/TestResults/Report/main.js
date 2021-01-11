@@ -224,6 +224,7 @@ var assemblies = [
   {
     "name": "Coverlet300Repro",
     "classes": [
+      { "name": "Coverlet300Repro.MultiLineAssignment", "rp": "Coverlet300Repro_MultiLineAssignment.htm", "cl": 3, "ucl": 3, "cal": 6, "tl": 14, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 0, "lch": [], "bch": [], "hc": [] },
       { "name": "Coverlet300Repro.MultiLineConstructor", "rp": "Coverlet300Repro_MultiLineConstructor.htm", "cl": 3, "ucl": 2, "cal": 5, "tl": 13, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 0, "lch": [], "bch": [], "hc": [] },
       { "name": "Coverlet300Repro.Program", "rp": "Coverlet300Repro_Program.htm", "cl": 0, "ucl": 3, "cal": 3, "tl": 12, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 0, "lch": [], "bch": [], "hc": [] },
       { "name": "Coverlet300Repro.SwitchPattern", "rp": "Coverlet300Repro_SwitchPattern.htm", "cl": 6, "ucl": 2, "cal": 8, "tl": 16, "ct": "LineCoverage", "mc": "-", "cb": 2, "tb": 2, "lch": [], "bch": [], "hc": [] },
